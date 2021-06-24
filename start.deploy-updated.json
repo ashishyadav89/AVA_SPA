@@ -633,7 +633,7 @@
 
                                     },
                                     {
-                                         "name":"F",
+                                         "name":"Cognitive_Endpoint",
                                          "value":"[reference('deploy-cognitive-services').outputs.endpoint.value]"
                                     },
                                     {
