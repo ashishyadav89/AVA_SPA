@@ -354,7 +354,7 @@
                     "scope": "Inner"
                 },
                 "parameters": {
-                    "_artifactsLocation": { "value": "[variables('_artifactsLocation')]" },
+                    "_artifactsLocation": { "value": "https://raw.githubusercontent.com/Azure/video-analyzer/main/setup/" },
                     "baseTime": { "value": "[parameters('baseTime')]" },
                     "managedIdentityId": { "value": "[variables('managedIdentityId')]" },
                     "hubName": { "value": "[reference('deploy-iot-resources').outputs.hubName.value]" },
